@@ -3,8 +3,9 @@ gunicorn
 openai
 python-dotenv
 pydantic
-pymupdf
-pdfplumber
 sqlalchemy
 psycopg2-binary
-werkzeug
+PyMuPDF
+presidio-analyzer
+presidio-anonymizer
+flask-limiter

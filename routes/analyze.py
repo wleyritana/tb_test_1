@@ -1,5 +1,4 @@
-from flask import Blueprint, jsonify
-analyze_bp=Blueprint('analyze',__name__)
-@analyze_bp.route('/analyze',methods=['POST'])
-def analyze():
-    return jsonify({'message':'Analysis pipeline placeholder with grounding and verification layers'})
+from flask import Blueprint,jsonify
+analyze_bp=Blueprint("analyze",__name__)
+@analyze_bp.post("/analyze")
+def analyze(): return jsonify({"pipeline":"ocr->pii->grounding->analysis->verification"})
