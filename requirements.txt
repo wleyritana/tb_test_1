@@ -1,11 +1,5 @@
 Flask
 gunicorn
 openai
-python-dotenv
-pydantic
-sqlalchemy
-psycopg2-binary
 PyMuPDF
-presidio-analyzer
-presidio-anonymizer
-flask-limiter
+python-dotenv

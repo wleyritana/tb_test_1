@@ -1,2 +1,1 @@
-# Document Intelligence Analyzer V1.1
-Enterprise ready scaffold with OCR, governance and grounding architecture.
+V1.3 Railway/GitHub ready MVP. Native PDF extraction architecture.
